@@ -12,7 +12,6 @@ class Hobbit {
     if (this.age > 100) {
       this.old = true;
     }
-
     if (this.age >= 33) {
       this.adult = true;
     }
@@ -30,25 +29,6 @@ class Hobbit {
     return message;
   }
 }
-
-//     if (time < 10) {
-//   greeting = "Good morning";
-// } else if (time < 20) {
-//   greeting = "Good day";
-// } else {
-//   greeting = "Good evening";
-// }
-
-    // if (this.age >= 101) {
-    //   this.old = false;
-    // };
-
-    // } else if
-    //   (this.age >= 101) {
-    //     this.old = false;
-      // } else {
-      // this.adult = false;
-    // }
 
 
 module.exports = Hobbit;
